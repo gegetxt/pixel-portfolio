@@ -56,6 +56,47 @@ a { color: inherit; }
     padding: 0 !important;
     order: 1;
   }
+
+  .talk-anchor {
+    right: 12.5% !important;
+    top: 37.5% !important;
+  }
+
+  .talk-bubble {
+    transform: translateX(-88%) !important;
+    max-width: min(212px, calc(100vw - 76px)) !important;
+    padding: 7px 9px !important;
+    border-width: 3px !important;
+    border-radius: 11px !important;
+    box-shadow: 0 3px 0 rgba(120,70,40,.3) !important;
+    white-space: normal !important;
+  }
+
+  .talk-content {
+    font-size: clamp(11px, 3.45vw, 13px) !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+  }
+
+  .talk-dots {
+    gap: 3px !important;
+    margin-left: 4px !important;
+  }
+
+  .talk-dots span {
+    width: 4px !important;
+    height: 4px !important;
+  }
+
+  .talk-tail {
+    left: 88% !important;
+    bottom: -6px !important;
+    width: 12px !important;
+    height: 12px !important;
+    border-right-width: 3px !important;
+    border-bottom-width: 3px !important;
+  }
 }
 
 /* ---- keyframes ---- */

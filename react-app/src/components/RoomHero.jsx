@@ -52,17 +52,17 @@ export default function RoomHero({ talkText, language, copy, languageLabels, onL
         <div style={{ position: 'absolute', left: '20%', top: '65%', width: 6, height: 6, borderRadius: '50%', background: 'rgba(255,240,200,.7)', animation: 'mote 8s linear infinite 3s' }} />
 
         {/* GIRL talking bubble — the tail is anchored over the hair-part. */}
-        <div style={{ position: 'absolute', right: 'clamp(222px, 27vw, 266px)', top: '26.5%', width: 0, height: 0, zIndex: 5 }}>
-          <div style={{ position: 'absolute', left: 0, bottom: 11, transform: 'translateX(-50%)', maxWidth: 'min(390px, calc(100vw - 64px))', width: 'max-content', background: '#fff6e4', color: '#5a3a22', border: '4px solid #8a5230', borderRadius: 16, padding: '12px 16px', boxShadow: '0 5px 0 rgba(120,70,40,.3)', whiteSpace: 'nowrap' }}>
-            <span style={{ display: 'inline-flex', alignItems: 'center', fontSize: 'clamp(15px,1.65vw,18px)', fontWeight: 600, lineHeight: 1.35, whiteSpace: 'nowrap' }}>
+        <div className="talk-anchor" style={{ position: 'absolute', right: '19.5%', top: '26.5%', width: 0, height: 0, zIndex: 5 }}>
+          <div className="talk-bubble" style={{ position: 'absolute', left: 0, bottom: 11, transform: 'translateX(-50%)', maxWidth: 'min(390px, calc(100vw - 64px))', width: 'max-content', background: '#fff6e4', color: '#5a3a22', border: '4px solid #8a5230', borderRadius: 16, padding: '12px 16px', boxShadow: '0 5px 0 rgba(120,70,40,.3)', whiteSpace: 'nowrap' }}>
+            <span className="talk-content" style={{ display: 'inline-flex', alignItems: 'center', fontSize: 'clamp(15px,1.65vw,18px)', fontWeight: 600, lineHeight: 1.35, whiteSpace: 'nowrap' }}>
               <span>{talkText}</span>
-              <span style={{ display: 'inline-flex', flex: '0 0 auto', gap: 4, marginLeft: 6, verticalAlign: 'middle' }}>
+              <span className="talk-dots" style={{ display: 'inline-flex', flex: '0 0 auto', gap: 4, marginLeft: 6, verticalAlign: 'middle' }}>
                 <span style={dot('0s')} />
                 <span style={dot('.2s')} />
                 <span style={dot('.4s')} />
               </span>
             </span>
-            <span style={{ position: 'absolute', bottom: -8, left: '50%', transform: 'translateX(-50%) rotate(45deg)', width: 16, height: 16, background: '#fff6e4', borderRight: '4px solid #8a5230', borderBottom: '4px solid #8a5230' }} />
+            <span className="talk-tail" style={{ position: 'absolute', bottom: -8, left: '50%', transform: 'translateX(-50%) rotate(45deg)', width: 16, height: 16, background: '#fff6e4', borderRight: '4px solid #8a5230', borderBottom: '4px solid #8a5230' }} />
           </div>
         </div>
 
