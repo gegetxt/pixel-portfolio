@@ -128,7 +128,7 @@
         "en": "The site you are browsing right now. It is a room-themed one-page portfolio with an animated cat and avatar, clickable room objects, project windows, and a full pixel-art interface. Built with React + Vite."
       },
       "tags": ["React", "Vite", "Pixel Art", "CSS Sprite Animation"],
-      "github": "https://github.com/gegetxt",
+      "github": "https://github.com/gegetxt/pixel-portfolio",
       "live": null
     },
     {
