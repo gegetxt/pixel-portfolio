@@ -26,7 +26,11 @@ export const uiCopy = {
     contact: {
       title: 'İletişim',
       text: 'Bir projede çalışmak, sohbet etmek ya da sadece selam vermek için kapım açık!',
-      footer: 'kahve ve piksellerle - gizem 2026'
+      footer: 'kahve ve piksellerle - gizem 2026',
+      mailAria: 'Gmail ile mail gönder',
+      phoneAria: 'Telefon numarasını göster',
+      phoneText: 'Beni bu numaradan arayabilirsiniz:',
+      close: 'Kapat'
     },
     modal: {
       title: 'Proje detayı',
@@ -62,7 +66,11 @@ export const uiCopy = {
     contact: {
       title: 'Contact',
       text: 'My door is open for project ideas, a quick chat, or just a friendly hello.',
-      footer: 'made with coffee & pixels - gizem 2026'
+      footer: 'made with coffee & pixels - gizem 2026',
+      mailAria: 'Send an email with Gmail',
+      phoneAria: 'Show phone number',
+      phoneText: 'You can call me at:',
+      close: 'Close'
     },
     modal: {
       title: 'Project details',
