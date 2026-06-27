@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.idea/
+.env
+.DS_Store
+*.local
+*.log
+
+react-app/node_modules/
+react-app/dist/
+react-app/*.log

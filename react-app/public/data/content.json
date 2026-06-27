@@ -1,0 +1,223 @@
+{
+  "about": {
+    "title": {
+      "tr": "Merhaba, ben Gizem! 🌿",
+      "en": "Hi, I'm Gizem! 🌿"
+    },
+    "text": {
+      "tr": "Yazılım mühendisi & fullstack geliştirici. Frontend'de React ile sıcacık arayüzler kuruyor, backend'de Java/Spring ve .NET ile sağlam sistemler yazıyor, arada derin öğrenme modelleriyle uğraşıyorum. Bu oda benim dijital köşem — etrafa göz at, eşyalara tıkla. ☕",
+      "en": "Software engineer & fullstack developer. I build warm React interfaces on the frontend, reliable Java/Spring and .NET systems on the backend, and sometimes work with deep learning models. This room is my digital corner — look around and tap the objects. ☕"
+    }
+  },
+  "talkPhrases": {
+    "tr": [
+      "kod yazıyorum ☕",
+      "hoş geldin!",
+      "projelerime göz at →",
+      "ışıklara dokunabilirsin 💡",
+      "birlikte güzel şeyler yapalım ✨"
+    ],
+    "en": [
+      "writing code ☕",
+      "welcome!",
+      "take a look at my projects →",
+      "you can tap the lights 💡",
+      "let's build lovely things ✨"
+    ]
+  },
+  "projects": [
+    {
+      "num": "01",
+      "star": "⭐",
+      "color": "#f6cdd0",
+      "border": "#cf8e94",
+      "title": {
+        "tr": "XCardia — Kalp Hastalığı Tespiti",
+        "en": "XCardia — Heart Disease Detection"
+      },
+      "short": {
+        "tr": "X-ray görüntülerinden hastalık tespiti yapan, derin öğrenme modelini backend'e entegre eden uygulama.",
+        "en": "A deep-learning app that detects disease from X-ray images and serves the model through a backend."
+      },
+      "desc": {
+        "tr": "X-ray görüntülerinden kalp hastalığı tespiti yapan derin öğrenme tabanlı uygulama. Eğitilen model FastAPI ile servis edilir, React Native arayüzünden gerçek zamanlı tahmin alınır. Tıbbi görüntüleme + model entegrasyonu üzerine uçtan uca bir proje.",
+        "en": "A deep-learning based app for heart disease detection from X-ray images. The trained model is served with FastAPI and real-time predictions are shown through a React Native interface. It is an end-to-end project around medical imaging and model integration."
+      },
+      "tags": ["Python", "Deep Learning", "FastAPI", "React Native", "Medical Imaging"],
+      "github": "https://github.com/gegetxt/xcardia-frontend",
+      "live": null
+    },
+    {
+      "num": "02",
+      "star": "",
+      "color": "#f6d79a",
+      "border": "#cB9a4e",
+      "title": {
+        "tr": "E-Ticaret Web Sitesi",
+        "en": "E-Commerce Website"
+      },
+      "short": {
+        "tr": "API bağlantılı e-ticaret arayüzü: ürün listeleme, filtreleme, form yönetimi, dinamik kullanıcı akışları.",
+        "en": "An API-connected storefront with product listing, filters, forms, and dynamic user flows."
+      },
+      "desc": {
+        "tr": "Full-stack ve canlı yayında olan bir e-ticaret platformu. React + Vite frontend; Spring Boot + PostgreSQL backend. Ürün listeleme, filtreleme, form yönetimi ve dinamik kullanıcı akışları içerir.",
+        "en": "A full-stack e-commerce platform with a live deployment. The frontend is built with React + Vite, while the backend uses Spring Boot + PostgreSQL. It includes product listing, filtering, form management, and dynamic user flows."
+      },
+      "tags": ["React", "Vite", "Spring Boot", "PostgreSQL", "REST API"],
+      "github": "https://github.com/gegetxt/e-commerce-website",
+      "live": "https://e-commerce-website-kappa-liard-25.vercel.app"
+    },
+    {
+      "num": "03",
+      "star": "",
+      "color": "#bfd6a0",
+      "border": "#7fa055",
+      "title": {
+        "tr": "AvoCart — Akıllı Alışveriş Arabası",
+        "en": "AvoCart — Smart Shopping Cart"
+      },
+      "short": {
+        "tr": "Barkod okuma, load cell ile ağırlık doğrulama ve POS ödeme entegrasyonu içeren IoT + full-stack proje.",
+        "en": "An IoT + full-stack project with barcode scanning, load-cell weight checks, and POS payment integration."
+      },
+      "desc": {
+        "tr": "IoT ve full-stack birleşimi akıllı alışveriş arabası. Barkod okuma, load cell ile ağırlık doğrulama ve POS ödeme entegrasyonu; ürün önerileri ve kampanya banner'larıyla zenginleştirilmiş. Raspberry Pi üzerinde çalışır.",
+        "en": "A smart shopping cart that combines IoT and full-stack development. It includes barcode scanning, load-cell based weight verification, POS payment integration, product recommendations, and campaign banners. It runs on Raspberry Pi."
+      },
+      "tags": ["React", "Python", "Raspberry Pi", "SQLite", "IoT"],
+      "github": "https://github.com/gegetxt",
+      "live": null
+    },
+    {
+      "num": "04",
+      "star": "",
+      "color": "#aecbdc",
+      "border": "#5e87a0",
+      "title": {
+        "tr": "Konak İnşaat Web Sitesi",
+        "en": "Konak Construction Website"
+      },
+      "short": {
+        "tr": "Veritabanı entegrasyonlu kurumsal site ve yönetim paneli; dinamik içerik yönetimi, responsive arayüz.",
+        "en": "A corporate website and admin panel with database integration, dynamic content management, and responsive UI."
+      },
+      "desc": {
+        "tr": ".NET tabanlı kurumsal web sitesi ve admin paneli. ASP.NET Core 8 + C# + MSSQL ile veritabanı entegrasyonu, dinamik içerik yönetimi ve responsive bir arayüz sunar.",
+        "en": "A .NET-based corporate website and admin panel. Built with ASP.NET Core 8, C#, and MSSQL, it provides database integration, dynamic content management, and a responsive interface."
+      },
+      "tags": ["ASP.NET Core 8", "C#", "MSSQL", "Admin Panel"],
+      "github": "https://github.com/gegetxt/KonakInsaat",
+      "live": null
+    },
+    {
+      "num": "05",
+      "star": "⭐",
+      "color": "#d2bcde",
+      "border": "#9272ab",
+      "title": {
+        "tr": "Cozy Pixel Portfolyo",
+        "en": "Cozy Pixel Portfolio"
+      },
+      "short": {
+        "tr": "Oda temalı tek sayfa portfolyo; animasyonlu kedi + avatar, proje pencereleri ve pixel-art arayüz.",
+        "en": "A room-themed one-page portfolio with an animated cat, avatar, project windows, and pixel-art UI."
+      },
+      "desc": {
+        "tr": "Şu an gezdiğin site! Oda temalı tek sayfa portfolyo: animasyonlu kedi ve avatar, tıklanabilir oda objeleri, proje pencereleri ve baştan sona pixel-art arayüz. React + Vite ile kuruldu.",
+        "en": "The site you are browsing right now. It is a room-themed one-page portfolio with an animated cat and avatar, clickable room objects, project windows, and a full pixel-art interface. Built with React + Vite."
+      },
+      "tags": ["React", "Vite", "Pixel Art", "CSS Sprite Animation"],
+      "github": "https://github.com/gegetxt",
+      "live": null
+    },
+    {
+      "num": "06",
+      "star": "",
+      "color": "#f3d3a8",
+      "border": "#cb9a5e",
+      "title": {
+        "tr": "Kişisel Portfolyo Sitesi",
+        "en": "Personal Portfolio Website"
+      },
+      "short": {
+        "tr": "Component tabanlı, performans odaklı, responsive kişisel portfolyo sitesi (önceki sürüm).",
+        "en": "A component-based, performance-focused, responsive personal portfolio site from an earlier version."
+      },
+      "desc": {
+        "tr": "Önceki kişisel portfolyo sürümüm. Component tabanlı mimari, performans odaklı ve tamamen responsive. React + Vite ile geliştirildi.",
+        "en": "My previous personal portfolio version. It uses a component-based architecture, focuses on performance, and is fully responsive. Built with React + Vite."
+      },
+      "tags": ["React", "Vite", "Responsive"],
+      "github": "https://github.com/gegetxt/MyPortfolio",
+      "live": "https://my-portfolio-lime-ten-70.vercel.app"
+    }
+  ],
+  "skills": [
+    {
+      "title": {
+        "tr": "Frontend",
+        "en": "Frontend"
+      },
+      "color": "#f6c2c8",
+      "pin": "#d96a7e",
+      "tilt": "-3deg",
+      "items": ["React.js", "JavaScript (ES6+)", "Redux", "Vite", "Tailwind CSS", "React Native"]
+    },
+    {
+      "title": {
+        "tr": "Backend",
+        "en": "Backend"
+      },
+      "color": "#f7dca0",
+      "pin": "#d9a23e",
+      "tilt": "2deg",
+      "items": ["Java", "Spring Boot", "Spring Security", "ASP.NET Core", "C#", "REST APIs"]
+    },
+    {
+      "title": {
+        "tr": "Yapay Zeka & Veri",
+        "en": "AI & Data"
+      },
+      "color": "#c4dba2",
+      "pin": "#7fa055",
+      "tilt": "-2deg",
+      "items": ["Python", "FastAPI", "Deep Learning", "Medical Imaging", "Model Fine-Tuning"]
+    },
+    {
+      "title": {
+        "tr": "Veritabanı",
+        "en": "Database"
+      },
+      "color": "#aed0e0",
+      "pin": "#5e87a0",
+      "tilt": "3deg",
+      "items": ["SQL", "PostgreSQL", "MSSQL"]
+    },
+    {
+      "title": {
+        "tr": "Temeller",
+        "en": "Foundations"
+      },
+      "color": "#d4bce0",
+      "pin": "#9272ab",
+      "tilt": "-2.5deg",
+      "items": ["OOP", "Data Structures", "Algorithms", "Design Patterns", "Clean Code"]
+    },
+    {
+      "title": {
+        "tr": "Araçlar & Test",
+        "en": "Tools & Testing"
+      },
+      "color": "#f3d3a8",
+      "pin": "#cb8e4e",
+      "tilt": "2.5deg",
+      "items": ["Git & GitHub", "Postman", "JUnit", "Cypress", "Figma"]
+    }
+  ],
+  "contact": {
+    "email": "gizemgunduz77@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/gizem-g-4b48a1245/",
+    "phone": "0506 198 25 30"
+  }
+}

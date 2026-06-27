@@ -1,0 +1,12 @@
+{
+  "name": "interaktif-web-sitesi-tasarimi",
+  "private": true,
+  "workspaces": [
+    "react-app"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w react-app",
+    "build": "npm run build -w react-app",
+    "preview": "npm run preview -w react-app"
+  }
+}
